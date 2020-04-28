@@ -1,0 +1,35 @@
+{
+  "name": "rollup-plugin-self-resolve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mod.js",
+  "files": [
+    "src",
+    "mod.js"
+  ],
+  "exports": {
+    ".": "./mod.js",
+    "./test": "./tests/test.js"
+  },
+  "engines": {
+    "node": ">=13.0.0"
+  },
+  "scripts": {
+    "test": "node --experimental-import-meta-resolve --trace-warnings ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fusionstrings/rollup-plugin-self-resolve.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fusionstrings/rollup-plugin-self-resolve/issues"
+  },
+  "homepage": "https://github.com/fusionstrings/rollup-plugin-self-resolve#readme",
+  "type": "module",
+  "devDependencies": {
+    "rollup": "^2.7.2"
+  }
+}
