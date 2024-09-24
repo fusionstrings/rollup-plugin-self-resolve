@@ -30,6 +30,6 @@
   "homepage": "https://github.com/fusionstrings/rollup-plugin-self-resolve#readme",
   "type": "module",
   "devDependencies": {
-    "rollup": "^2.7.2"
+    "rollup": "^3.29.5"
   }
 }
